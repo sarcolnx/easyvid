@@ -10,7 +10,7 @@ echo "o++++++++++++++++++++++++++++++++++++++++++++++o"
 
 echo "Package ffmpeg is needed.. Checking if package needs to be installed..."
 echo "Please wait..."
-sudo apt update > /dev/null && sudo apt install ffmpeg > /dev/null
+sudo apt update > /dev/null && sudo apt install ffmpeg -y > /dev/null
 echo "Done!"
 
 USER=$(whoami)
